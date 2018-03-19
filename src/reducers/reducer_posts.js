@@ -13,7 +13,6 @@ export default function(state = {}, action) {
       // newState[post.id] = post;
 
       // return newState;
-
       return { ...state, [action.payload.data.id]: action.payload.data };
 
     default:
