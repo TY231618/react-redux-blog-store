@@ -28,7 +28,7 @@ class PostsIndex extends React.Component {
   render() {
     return (
       <div>
-        <div className="text-xs-right">
+        <div className="text-xs-right" style={{'paddingTop': '15px'}}>
           <Link className="btn btn-primary" to='/posts/new'>New Post</Link>
         </div>
         <h3>Posts</h3>
